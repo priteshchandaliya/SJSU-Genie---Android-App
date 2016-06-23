@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/school"
+
+            android:title="Getting into SJSU" />
+        <item
+            android:id="@+id/nav_course"
+            android:icon="@drawable/course"
+
+            android:title="Course Structure" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/dates"
+            android:title="Plan your schedule" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/signs"
+            android:title="FAQs" />
+        <item
+            android:id="@+id/nav_accomodation"
+            android:icon="@drawable/accomodation"
+
+            android:title="Accomodation" />
+        <item
+            android:id="@+id/discussion_forum"
+            android:icon="@drawable/social"
+            android:title="Discussion forum" />
+    </group>
+
+   <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Contact Us" />
+        </menu>
+    </item>
+
+</menu>

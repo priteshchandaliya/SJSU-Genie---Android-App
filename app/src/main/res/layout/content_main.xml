@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.sjsu.priteshchandaliya.cmpeginie.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/slider_image"
+        android:layout_width="match_parent"
+        android:layout_height="420dp" />
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="10dp"
+
+        android:text="San Jose State University"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:gravity="center"
+
+        android:text="Computer Engineering"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+</LinearLayout>
+

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sjsu.priteshchandaliya.cmpeginie">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- if you want to load images from the internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- if you want to load images from a file OR from the internet -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".CmpeGenieApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/app_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DiscussionForum"
+            android:label="@string/title_activity_discussion_forum"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".faq"
+            android:label="@string/title_activity_faq"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".planNetworking"
+            android:label="@string/title_activity_plan_networking"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".sample"
+            android:label="@string/title_activity_sample"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".PlanYourSchedule"
+            android:label="@string/title_activity_plan_your_schedule"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FutureStudent"
+            android:label="@string/title_activity_future_student"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Plan1"
+            android:label="@string/title_activity_plan1"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Plan2"
+            android:label="@string/title_activity_plan2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Plan3"
+            android:label="@string/title_activity_plan3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Plan4"
+            android:label="@string/title_activity_plan4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Plan5"
+            android:label="@string/title_activity_plan5"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".main_discussion_forum_list"
+            android:label="@string/title_activity_main_discussion_forum_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Accomodation"
+            android:label="@string/title_activity_accomodation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CurrentStudent"
+            android:label="@string/title_activity_current_student"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CourseStructure"
+            android:label="@string/title_activity_course_structure"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ContactUs"
+            android:label="@string/title_activity_contact_us"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GettingIntoSjsu"
+            android:label="@string/title_activity_getting_into_sjsu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Plan01"
+            android:label="@string/title_activity_plan01"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PlanSem2"
+            android:label="@string/title_activity_plan_sem2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Plan02"
+            android:label="@string/title_activity_plan02"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

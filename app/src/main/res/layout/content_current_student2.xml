@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.sjsu.priteshchandaliya.cmpeginie.CurrentStudent"
+    tools:showIn="@layout/app_bar_current_student">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Specialization"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Networking"
+        android:id="@+id/networking"
+        android:layout_below="@+id/textView3"
+        android:onClick="course"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Embedded"
+        android:id="@+id/embedded"
+        android:onClick="course"
+        android:layout_below="@+id/networking"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Semester"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/embedded"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1st Semester"
+        android:id="@+id/sem1"
+
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2nd Semester"
+
+        android:id="@+id/sem2"
+        android:layout_below="@+id/sem1"
+        android:layout_alignParentStart="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Courses already completed or in progress"
+        android:id="@+id/cours"
+        android:layout_below="@+id/sem2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp" />
+
+
+    <ListView
+        android:id="@+id/courselist"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:choiceMode="multipleChoice"
+
+        android:layout_below="@+id/cours"
+        android:layout_alignParentStart="true" />
+
+    <Button android:id="@+id/buttonStart"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="Proceed"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_below="@+id/courselist"
+        android:background="#FF8000"
+        android:breakStrategy="high_quality"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+
+
+</RelativeLayout>
+
+</ScrollView>
+
